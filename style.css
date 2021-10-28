@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  background: #f1f5f8;
+  box-shadow: 0 0 15px gray;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  align-items: end;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0689b6;
+  font-style: italic;
+}
+
+#bg-reference {
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-style: normal;
+}
+
+button {
+  align-self: start;
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
